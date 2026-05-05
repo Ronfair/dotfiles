@@ -10,3 +10,34 @@ export EDITOR=vim
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+proj() {
+    BASE_DIR="$HOME/Projects"
+
+    if [ -z "$1" ]; then
+        echo "Usage: proj <folder>"
+        return 1
+    fi
+
+    matches=($BASE_DIR/**/$1(N))
+
+    if [ ${#matches[@]} -eq 0 ]; then
+        echo "No matching folder found"
+        return 1
+    elif [ ${#matches[@]} -gt 1 ]; then
+        echo "Multiple matches found:"
+        printf '%s\n' "${matches[@]}"
+        return 1
+    fi
+
+    cd "$matches[1]" || return
+
+    # Auto-activate venv
+    if [ -f "venv/bin/activate" ]; then
+        source venv/bin/activate
+        echo "Activated venv"
+    elif [ -f ".venv/bin/activate" ]; then
+        source .venv/bin/activate
+        echo "Activated .venv"
+    fi
+}
