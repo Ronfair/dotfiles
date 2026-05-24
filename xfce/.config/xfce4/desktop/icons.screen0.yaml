@@ -11,6 +11,13 @@ configs:
       y: 0
       width: 1920
       height: 1080
+  - id: "f0474851960d912ea4185718ae1c6d12752ed1e6"
+    display_name: "BOE 0x0B02 (eDP-1)"
+    geometry:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
   icons:
     "trash:///":
       row: 2
@@ -44,6 +51,13 @@ configs:
   monitors:
   - id: "f0474851960d912ea4185718ae1c6d12752ed1e6"
     display_name: "BOE 0x0B02 (eDP-1)"
+    geometry:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+  - id: "0d67ef6e90ebf5e20fba0be1fcde17ccf4d50b81"
+    display_name: "LG Electronics LG FULL HD 0x0006A6C7 (DP-1)"
     geometry:
       x: 0
       y: 0

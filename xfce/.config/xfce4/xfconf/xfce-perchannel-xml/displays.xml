@@ -4,36 +4,26 @@
   <property name="ActiveProfile" type="string" value="Default"/>
   <property name="Notify" type="int" value="1"/>
   <property name="AutoEnableProfiles" type="int" value="3"/>
+  <property name="IdentityPopups" type="bool" value="false"/>
   <property name="Default" type="empty">
     <property name="eDP-1" type="string" value="Laptop">
-      <property name="Active" type="bool" value="true"/>
+      <property name="Active" type="bool" value="false"/>
       <property name="EDID" type="string" value="194f095cc6e0385735c227703f4744d94e1d0291"/>
       <property name="DuplicateEDID" type="bool" value="false"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="144.00016237720223"/>
-      <property name="ModeFlags" type="uint64" value="9"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="double" value="1"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
     </property>
-    <property name="DP-1" type="string" value="LG Electronics 22&quot;">
+    <property name="HDMI-1-0" type="string" value="LG Electronics 22&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="85b3fa93f4ab29d107ac0997315dfc88d705a330"/>
+      <property name="EDID" type="string" value="b3cfa3254288fabc062ede2171f45ce41517ce05"/>
       <property name="DuplicateEDID" type="bool" value="false"/>
       <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60"/>
+      <property name="RefreshRate" type="double" value="74.972502921564583"/>
       <property name="ModeFlags" type="uint64" value="5"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>
       <property name="Scale" type="double" value="1"/>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="1920"/>
+        <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>

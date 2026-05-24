@@ -6,7 +6,7 @@
     <value type="int" value="1"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=2880;y=1066"/>
+      <property name="position" type="string" value="p=8;x=960;y=1066"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="16"/>
@@ -19,6 +19,7 @@
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="7"/>
+        <value type="int" value="11"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -48,11 +49,21 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="CoolerControl"/>
+        <value type="string" value="heroic_status_icon_1"/>
+        <value type="string" value="zoom"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="steam"/>
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (80%)"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="wi-fi network connection “cares_5g” active: cares_5g (72%)"/>
+        <value type="string" value="wi-fi network connection “cares_5g” active: cares_5g (73%)"/>
+        <value type="string" value="wi-fi network connection “cares_5g” active: cares_5g (69%)"/>
+        <value type="string" value="wi-fi network connection “cares_5g” active: cares_5g (63%)"/>
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
         <value type="string" value="networkmanager applet"/>
       </property>
@@ -62,10 +73,15 @@
     </property>
     <property name="plugin-8" type="string" value="clock">
       <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="timezone" type="string" value=""/>
     </property>
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-10" type="string" value="actions"/>
+    <property name="plugin-11" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Brave;itch"/>
+    </property>
   </property>
 </channel>

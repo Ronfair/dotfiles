@@ -61,6 +61,9 @@
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
       <property name="AudioPlay" type="string" value="playerctl play-pause"/>
+      <property name="&lt;Super&gt;a" type="string" value="rofi -show drun"/>
+      <property name="&lt;Super&gt;Return" type="string" value="alacritty"/>
+      <property name="&lt;Super&gt;b" type="string" value="brave"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
