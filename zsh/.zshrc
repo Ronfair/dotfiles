@@ -6,24 +6,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 source /usr/share/cachyos-zsh-config/cachyos-config.zsh
+source ~/.config/zsh/.zsh-ai.zsh
 export EDITOR=vim
 
 alias update='paru'
-alias ait='ollama run dolphin-llama3:8b'
-alias aic='ollama run deepseek-coder:6.7b'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-ai() {
-    (
-        cd "/mnt/Projects/AI/PrivateGPT/private-gpt" || exit
-
-        (sleep 3 && xdg-open http://localhost:8001 >/dev/null 2>&1) &
-
-        PGPT_PROFILES=ollama make run
-    )
-}
 
 proj() {
     BASE_DIR="$HOME/Projects"

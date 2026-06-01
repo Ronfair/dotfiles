@@ -57,6 +57,15 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (74%)"/>
+        <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (69%)"/>
+        <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (72%)"/>
+        <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (66%)"/>
+        <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (65%)"/>
+        <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (81%)"/>
+        <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (67%)"/>
+        <value type="string" value="wi-fi network connection “ir311v_2.4g_be88” active: ir311v_2.4g_be88 (78%)"/>
+        <value type="string" value="wi-fi network connection “ir311v_2.4g_be88” active: ir311v_2.4g_be88 (80%)"/>
         <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (80%)"/>
         <value type="string" value="javaembeddedframe"/>
         <value type="string" value="wi-fi network connection “cares_5g” active: cares_5g (72%)"/>
@@ -81,7 +90,7 @@
     <property name="plugin-10" type="string" value="actions"/>
     <property name="plugin-11" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Brave;itch"/>
+      <property name="known-players" type="string" value="Brave;Helium;itch"/>
     </property>
   </property>
 </channel>
