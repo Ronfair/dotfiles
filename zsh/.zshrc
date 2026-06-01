@@ -8,6 +8,10 @@ fi
 source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 export EDITOR=vim
 
+alias update='paru'
+alias ai='PGPT_PROFILES=ollama make run'
+alias ait='ollama run dolphin-llama3:8b'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
