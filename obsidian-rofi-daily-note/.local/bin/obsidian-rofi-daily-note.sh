@@ -10,5 +10,5 @@ TEXT=$(rofi -dmenu -p "Daily note")
 mkdir -p "$DIR"
 
 {
-  echo "- $(date +'%H:%M') $TEXT"
+    echo "- ($(date +'%H:%M')) $TEXT"
 } >> "$FILE"
