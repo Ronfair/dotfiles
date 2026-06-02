@@ -33,7 +33,7 @@ ai() {
                     return 1
                 }
 
-                PGPT_PROFILES=ollama make ingest FOLDER="$2"
+                PGPT_PROFILES=ollama make ingest "$2"
                 ;;
 
             run|r|"")
@@ -47,7 +47,7 @@ ai() {
                     return 1
                 }
 
-                PGPT_PROFILES=ollama make ingest FOLDER="$2" || exit
+                PGPT_PROFILES=ollama make ingest "$2" || exit
                 (sleep 3 && xdg-open http://localhost:8001 >/dev/null 2>&1) &
                 PGPT_PROFILES=ollama make run
                 ;;
