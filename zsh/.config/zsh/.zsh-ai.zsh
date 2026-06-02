@@ -22,13 +22,18 @@ ait() {
     ollama run "$model"
 }
 
-function ai() {
+ai() {
     (
         cd "/mnt/Projects/AI/PrivateGPT/private-gpt" || exit
 
         case "$1" in
             ingest|i)
-                PGPT_PROFILES=ollama make ingest
+                [[ -z "$2" ]] && {
+                    echo "Usage: ai i <folder>"
+                    return 1
+                }
+
+                PGPT_PROFILES=ollama make ingest FOLDER="$2"
                 ;;
 
             run|r|"")
@@ -37,7 +42,12 @@ function ai() {
                 ;;
 
             ir|ri)
-                PGPT_PROFILES=ollama make ingest || exit
+                [[ -z "$2" ]] && {
+                    echo "Usage: ai ir <folder>"
+                    return 1
+                }
+
+                PGPT_PROFILES=ollama make ingest FOLDER="$2" || exit
                 (sleep 3 && xdg-open http://localhost:8001 >/dev/null 2>&1) &
                 PGPT_PROFILES=ollama make run
                 ;;
