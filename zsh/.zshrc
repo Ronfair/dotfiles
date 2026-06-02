@@ -8,6 +8,7 @@ fi
 source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 source ~/.config/zsh/.zsh-ai.zsh
 export EDITOR=nvim
+export PATH="$HOME/.local/bin:$PATH"
 
 alias update='paru'
 

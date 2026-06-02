@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Quick Notes
+Comment=Append notes to daily markdown file
+Exec=.local/bin/obsidian-rofi-daily-note.sh
+Type=Application
+Terminal=false
+Categories=Utility;
