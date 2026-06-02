@@ -1,4 +1,4 @@
-aio() {
+ait() {
     local model
     local query="$1"
 

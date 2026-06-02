@@ -7,7 +7,7 @@ fi
 
 source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 source ~/.config/zsh/.zsh-ai.zsh
-export EDITOR=vim
+export EDITOR=nvim
 
 alias update='paru'
 
