@@ -49,6 +49,13 @@ configs:
       col: 0
 - level: 0
   monitors:
+  - id: "a4d92a90db9f631b7b430d6be12dacdfe26deb66"
+    display_name: "PNP(BNQ) BenQ GW2480 J3L0006701Q (HDMI-1-0)"
+    geometry:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
   - id: "f0474851960d912ea4185718ae1c6d12752ed1e6"
     display_name: "BOE 0x0B02 (eDP-1)"
     geometry:
