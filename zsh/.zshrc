@@ -15,7 +15,7 @@ alias update='paru'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 proj() {
-    BASE_DIR="$HOME/Projects"
+    BASE_DIR="/mnt/Projects"
 
     if [ -z "$1" ]; then
         echo "Usage: proj <folder>"
