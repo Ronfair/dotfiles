@@ -103,6 +103,9 @@ configs:
     "/":
       row: 1
       col: 0
+    "/home/atlas/Desktop/Wuthering Waves.desktop":
+      row: 0
+      col: 0
     "66c9aff4-2596-4d16-a809-43417b37ba08":
       row: 6
       col: 0

@@ -67,6 +67,9 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="obs"/>
+        <value type="string" value="Docker Desktop_status_icon_1"/>
+        <value type="string" value="proton.vpn.app.gtk"/>
         <value type="string" value="CoolerControl"/>
         <value type="string" value="heroic_status_icon_1"/>
         <value type="string" value="zoom"/>
@@ -75,6 +78,11 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (75%)"/>
+        <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (78%)"/>
+        <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (73%)"/>
+        <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (62%)"/>
+        <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (76%)"/>
         <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (63%)"/>
         <value type="string" value="wi-fi network connection “cares-5g” active: cares-5g (68%)"/>
         <value type="string" value="wi-fi network connection “cares-4g” active: cares-4g (79%)"/>
@@ -112,7 +120,7 @@
     <property name="plugin-10" type="string" value="actions"/>
     <property name="plugin-11" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Brave;Helium;itch"/>
+      <property name="known-players" type="string" value="Brave;Brave Origin;Helium;itch"/>
     </property>
     <property name="plugin-12" type="string" value="actions"/>
     <property name="plugin-14" type="string" value="clock"/>

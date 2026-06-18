@@ -5,7 +5,9 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="blueman"/>
+      <value type="string" value="brave-browser"/>
       <value type="string" value="CachyOS Update"/>
+      <value type="string" value="Docker Desktop"/>
       <value type="string" value="fish"/>
       <value type="string" value="GOverlay"/>
       <value type="string" value="heroic"/>
